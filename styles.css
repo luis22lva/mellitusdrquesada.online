@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo__video,
+.legenda__video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    color: #000000;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 20px;
+}
+
+.red {
+    background-color: #800000;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.borda {
+    border: 4px #800000 solid;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    padding-bottom: 5px;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    display: none;
+}
+
+.delaycontato {
+    display: none;
+    margin-top: 15px;
+    margin-bottom: 90px;
+    cursor: pointer;
+    padding: 15px 30px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    border: grey 2px solid;
+    background-color: whitesmoke;
+    width: 30%;
+}
+
+.btnfixo {
+    position: fixed;
+    bottom: 0;
+    width: 400px;
+    z-index: 9999999;
+    position: fixed;
+    left: 39.5%;
+    display: none;
+}
+
+.seguro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.pag {
+    display: inline-block;
+    width: 80%;
+    display: none;
+}
+
+.pag2 {
+    display: inline-block;
+    width: 300px;
+    display: none;
+}
+
+.copyright,
+.termos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.legenda_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legenda_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    ;
+}
+
+.checkout {
+    background-color: #ffffff;
+    padding-top: 2.7rem;
+    border-radius: 10px;
+    display: none;
+    margin-bottom: 50px;
+}
+
+.link,
+.link1 {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 320px) {
+    .imagem {
+        width: 350px;
+    }
+    .legenda__video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .5rem 1.5rem;
+    }
+}
+
+.liveupdates {
+    width: calc(100% - 30px);
+    height: auto;
+    background: white;
+    border: 1px solid #EAEAEA;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 800px;
+    position: relative;
+    box-shadow: 0 1px 3px #555;
+}
+
+.liveupdates .comments {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 250px;
+}
+
+.liveupdates .comments:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, white, white, transparent);
+    z-index: 1000;
+    content: "ACTUALIZACIONES DE MIEMBROS REALES EN VIVO";
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 15px;
+    font-size: 0.85em;
+}
+
+.tooltip {
+    font-size: 1.15em;
+    font-weight: 300;
+}
+
+.tooltip-inner {
+    max-width: 400px;
+    padding: 10px;
+}
+
+.liveupdates .comments .comments-body {
+    height: auto;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.liveupdates .comments .comments-body .comment {
+    display: flex;
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.liveupdates .comments .comments-body .comment .comment-face {
+    flex-basis: 40px;
+    margin-right: 15px;
+}
+
+.liveupdates .comments .comments-body .comment .comment-face .img-container {
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    /*border:1px solid #EAEAEA;*/
+}
+
+.liveupdates .comments .comments-body .comment .comment-face .img-container img {
+    height: 100%;
+    width: auto;
+    top: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.liveupdates .footer {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.liveupdates .footer .send-message {
+    width: 100%;
+    background-color: #EAEAEA;
+    border: 1px solid lightgray;
+    padding: 10px 15px;
+}
+
+.liveupdates .footer * .fa {
+    color: lightgray;
+    font-size: 2em;
+    margin: 15px 7.5px;
+    margin-bottom: 0;
+}
+
+.liveupdates .footer * .btn-chat {
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 15px;
+    outline: none !important;
+    box-shadow: none;
+    margin: 15px 7.5px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.liveupdates .footer * .btn-chat .fa {
+    font-size: 1em;
+    margin: 0;
+    color: white;
+}
+
+@media(max-width:500px) {
+    .liveupdates {
+        padding: 5px;
+        margin: 5px auto;
+        width: calc(100% - 15px);
+    }
+    .btnfixo {
+        bottom: 0;
+        width: 100%;
+        z-index: 9999999;
+        position: fixed;
+        left: 0;
+    }
+}
