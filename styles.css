@@ -24,6 +24,7 @@ body {
     vertical-align: middle;
 }
 
+.esconder { display: none }
 .imagem {
     display: flex;
     justify-content: center;
@@ -42,11 +43,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.2rem;
+    gap: 1rem;
     color: #000000;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 0.2rem;
     font-size: 20px;
+     line-height: 1em;
 }
 
 .red {
@@ -72,21 +74,19 @@ body {
 .button {
     display: inline-block;
     cursor: pointer;
-    display: none;
 }
 
 .delaycontato {
-    display: none;
     margin-top: 15px;
     margin-bottom: 90px;
     cursor: pointer;
-    padding: 15px 30px;
+    padding: 10px 10px;
     color: black;
     text-decoration: none;
     border-radius: 10px;
     border: grey 2px solid;
     background-color: whitesmoke;
-    width: 30%;
+    width: 60%;
 }
 
 .btnfixo {
@@ -96,7 +96,6 @@ body {
     z-index: 9999999;
     position: fixed;
     left: 39.5%;
-    display: none;
 }
 
 .seguro {
@@ -109,13 +108,11 @@ body {
 .pag {
     display: inline-block;
     width: 80%;
-    display: none;
 }
 
 .pag2 {
     display: inline-block;
     width: 300px;
-    display: none;
 }
 
 .copyright,
@@ -138,14 +135,30 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 0.8em;
-    ;
+    line-height: 1.2em;
+}
+.legenda_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: -20px;
+}
+.legenda_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    line-height: 0.8em;
 }
 
 .checkout {
     background-color: #ffffff;
     padding-top: 2.7rem;
     border-radius: 10px;
-    display: none;
     margin-bottom: 50px;
 }
 
@@ -170,6 +183,7 @@ body {
         align-items: center;
         padding: .5rem 1.5rem;
     }
+    
 }
 
 .liveupdates {
@@ -201,7 +215,7 @@ body {
     width: 100%;
     background-image: linear-gradient(to bottom, white, white, transparent);
     z-index: 1000;
-    content: "ACTUALIZACIONES DE MIEMBROS REALES EN VIVO";
+    content: "MIEMBROS DE LA COMUNIDAD LIBRES DE RIESGOS Y DE COMPLICACIONES DEL DR. QUESADA";
     font-weight: bold;
     text-align: center;
     color: black;
