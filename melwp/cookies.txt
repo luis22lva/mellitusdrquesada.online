@@ -1,0 +1,10 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+mayoclinic.org	TRUE	/	FALSE	1999999999	AKA_A2	A
+www.mayoclinic.org	TRUE	/	FALSE	1999999999	TiPMix	73.4212337403657
+www.mayoclinic.org	TRUE	/	FALSE	1999999999	x-ms-routing-name	self
+www.mayoclinic.org	TRUE	/	FALSE	1999999999	ApplicationGatewayAffinity	59eee80334fb3f5bcf14d4d2138390fa901ba98788ff036a636e71820759d479
+www.mayoclinic.org	TRUE	/	FALSE	1999999999	ApplicationGatewayAffinityCORS	59eee80334fb3f5bcf14d4d2138390fa901ba98788ff036a636e71820759d479
+www.mayoclinic.org	TRUE	/	FALSE	1999999999	patientconsumer#lang	es-ES
+www.mayoclinic.org	TRUE	/	FALSE	1999999999	SameSite	Lax
+

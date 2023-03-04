@@ -1,0 +1,18 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 01 Mar 2023 18:57:25 at https://www.mayoclinic.org/es-es/diseases-conditions/type-2-diabetes/symptoms-causes/syc-20351193#:~:text=No%20hay%20cura%20para%20la,diabetes%20o%20tratamiento%20con%20insulina. +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.mayoclinic.org/es-es/diseases-conditions/type-2-diabetes/symptoms-causes/syc-20351193#:~:text=No%20hay%20cura%20para%20la,diabetes%20o%20tratamiento%20con%20insulina. -O1 "C:\My Web Sites\MELLITUS WP" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:57:47	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link primary/robots.txt (from primary/primary)
+18:57:47	Warning: 	Retry after error -5 (Unable to get server's address: Este host não é conhecido. ) at link primary/text=No hay cura para la,diabetes o tratamiento con insulina. (from primary/primary)
+18:57:51	Error: 	"Not Found" (404) at link https://www.mayoclinic.org/es-es/diseases-conditions/type-2-diabetes/symptoms-causes/ak.m (from https://www.mayoclinic.org/es-es/diseases-conditions/type-2-diabetes/symptoms-causes/syc-20351193)
+18:57:51	Error: 	"Not Found" (404) at link https://www.mayoclinic.org/es-es/diseases-conditions/type-2-diabetes/symptoms-causes/ak.t (from https://www.mayoclinic.org/es-es/diseases-conditions/type-2-diabetes/symptoms-causes/syc-20351193)
+18:57:54	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link primary/text=No hay cura para la,diabetes o tratamiento con insulina. (from primary/primary)
+18:57:58	Error: 	"Not Found" (404) at link https://www.mayoclinic.org/es-es/diseases-conditions/type-2-diabetes/symptoms-causes/POST (from https://www.mayoclinic.org/es-es/diseases-conditions/type-2-diabetes/symptoms-causes/~/media/kcms/ux/javascript/newslettereh.js)
+18:57:58	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link primary/text=No hay cura para la,diabetes o tratamiento con insulina. (from primary/primary)
+
+HTTrack Website Copier/3.49-2 mirror complete in 33 seconds : 43 links scanned, 35 files written (1612443 bytes overall) [434406 bytes received at 13163 bytes/sec], 1518497 bytes transferred using HTTP compression in 14 files, ratio 18%, 7.8 requests per connection
+(5 errors, 2 warnings, 0 messages)
